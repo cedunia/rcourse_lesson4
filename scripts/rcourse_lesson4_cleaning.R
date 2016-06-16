@@ -21,6 +21,3 @@ data_clean <- data %>%
   arrange(episode) %>%
   filter(row_number() == 1) %>%
   ungroup()
-
-
-
