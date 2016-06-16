@@ -27,6 +27,3 @@ extinct.plot <- ggplot(data_figs_sum, aes(x = series,
 pdf("./figures/extinct.pdf")
 extinct.plot
 dev.off()
-
-
-  
